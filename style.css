@@ -1,0 +1,85 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+
+body{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #8f71ff;
+
+}
+
+.container{
+
+background-color: white;
+padding: 2rem;
+border-radius: 1rem;
+height: 400px;
+width: 300px;
+
+}  
+
+form{
+
+margin: 40px;
+
+}
+
+form  select , button ,input{
+
+width: 100%;
+border: none;
+outline: none;
+border-radius: 0.75rem;
+
+}
+
+form input{
+
+border: 1px solid lightgray;
+font-size: 1rem;
+height: 3rem;
+padding-left: 0.5rem;
+
+
+}
+
+.dropdown{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 2rem;
+
+
+}
+
+
+.select-container img{
+
+max-width: 1.75 rem;
+
+
+}
+
+.btn{
+
+background-color: blueviolet;
+height: 50px;
+font-size: 20px;
+color: white;
+
+}
+
+
+
+
+
+
